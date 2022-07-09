@@ -1,0 +1,20 @@
+# main links
+main:
+  - title: "My Blogs"
+    url: /blog
+  - title: "Offsec Posts"
+    url: /offsec
+  - title: "Exploit Development"
+    url: /expdev
+  - title: "My Archive"
+    url: /archive-data
+#  - title: "Binary Exploitation"
+#    url: /binexp
+#  - title: "HTB Writeups"
+#    url: /htb
+#  - title: "Pwn Challenges"
+#    url: /pwn
+#  - title: "My Cheatsheet"
+#    url: "https://aidenpearce369.gitbook.io/handbook/"
+#  - title: "Tags"
+#    url: /tags

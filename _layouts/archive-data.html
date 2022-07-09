@@ -1,0 +1,65 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+
+<!-- Offsec Posts -->
+
+<div id="offsec">
+    <h3>Offensive Security Posts</h3>
+    {% for i in (1..categories_max) %}
+    {% for category in site.categories %}
+        {% if category[1].size == i %}
+        {% if category[0] == "Offsec" %}
+        <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+            <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            {% for post in category.last reversed %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <br>
+            {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>
+
+<!-- Windows Exploitation Posts -->
+
+<div id="windows-exploitation">
+    <h3>Windows Exploitation</h3>
+    {% for i in (1..categories_max) %}
+    {% for category in site.categories %}
+        {% if category[1].size == i %}
+        {% if category[0] == "Windows-Exploitation" %}
+        <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+            <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            {% for post in category.last reversed %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <br>
+            {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>
+
+<!--- HTB Archive--->
+<div id="htb">
+    <h3>Hack The Box Writeups</h3>
+        <section>
+            <a href="https://aidenpearce369.github.io/htb-archive/">HTB Archive</a>
+            <br>
+        </section>
+</div>

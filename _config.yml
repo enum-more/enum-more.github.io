@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Gnanaraj Mauviel"
-  avatar           : /assets/images/site_data/avatar.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/site_data/1642261427474.jpeg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Tester | API Automation Tester| CTF Player | CyberSecurity"
   location         : "Coimbatore, India"
   email            :

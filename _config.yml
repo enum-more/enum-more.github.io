@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "aidenpearce369"
+title                    : "enum-more"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Monish Kumar"
-description              : "Cybersecurity - Red Teaming - Exploit Development"
-url                      : #"https://aidenpearce369.github.io"
+name                     : "Gnanaraj Mauviel"
+description              : "CyberSecurity blogs and writeups"
+url                      : #"https://enum-more.github.io/"
 baseurl                  : #"/home" # the subpath of your site, e.g. "/blog"
-repository               : "AidenPearce369/AidenPearce369.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "enum-more/enum-more.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -71,7 +71,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : aidenpearce369
+  username               : enum_more
 facebook:
   username               :
   app_id                 :
@@ -94,30 +94,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Monish Kumar"
+  name             : "Gnanaraj Mauviel"
   avatar           : /assets/images/site_data/avatar.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Security Researcher, Red Teamer"
-  location         : "Chennai, India"
+  bio              : "Software Tester | API Automation Tester| CTF Player | CyberSecurity"
+  location         : "Coimbatore, India"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:monishmonish@outlook.com"
+      url: "mailto:gnanarajmauviel@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/aidenpearce369"
+      url: "https://twitter.com/enum_more"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       #url: "https://facebook.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/aidenmonish/"
+      url: "https://www.linkedin.com/in/gnanaraj-mauviel-46b8561b1/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/aidenpearce369"
+      url: "https://github.com/enum-more"
 
 # Site Footer
 footer:

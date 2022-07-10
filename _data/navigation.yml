@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "My Blogs"
-    url: /blog
   - title: "HTB Writeups"
     url: /htb
   - title: "THM Writeups"

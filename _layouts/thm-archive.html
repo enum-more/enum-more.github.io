@@ -1,0 +1,34 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+
+<!-- HTB Posts -->
+
+<div id="thm">
+    <h3>TryHackMe</h3>
+    {% for i in (1..categories_max) %}
+    {% for category in site.categories %}
+        {% if category[1].size == i %}
+        {% if category[0] == "THM" %}
+        <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+            <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            {% for post in category.last reversed %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <br>
+            {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>

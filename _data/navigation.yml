@@ -6,13 +6,4 @@ main:
     url: /thm
   - title: "My Archive"
     url: /archive-data
-#  - title: "Binary Exploitation"
-#    url: /binexp
-#  - title: "Offsec Posts"
-#    url: /offsec
-#  - title: "Pwn Challenges"
-#    url: /pwn
-#  - title: "My Cheatsheet"
-#    url: "https://aidenpearce369.gitbook.io/handbook/"
-#  - title: "Tags"
-#    url: /tags
+

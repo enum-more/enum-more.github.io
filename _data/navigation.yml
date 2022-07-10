@@ -2,16 +2,16 @@
 main:
   - title: "My Blogs"
     url: /blog
-  - title: "Offsec Posts"
-    url: /offsec
-  - title: "Exploit Development"
-    url: /expdev
+  - title: "HTB Writeups"
+    url: /htb
+  - title: "THM Writeups"
+    url: /thm
   - title: "My Archive"
     url: /archive-data
 #  - title: "Binary Exploitation"
 #    url: /binexp
-#  - title: "HTB Writeups"
-#    url: /htb
+#  - title: "Offsec Posts"
+#    url: /offsec
 #  - title: "Pwn Challenges"
 #    url: /pwn
 #  - title: "My Cheatsheet"

@@ -8,7 +8,7 @@ tag:
   - "Sudo Exploit"
 header:
   teaser: /assets/images/htb/htb.png
-ribbon: #9fef00
+ribbon: lawngreen
 description: "Writeup for HTB - RouterSpace"
 categories:
   - HTB

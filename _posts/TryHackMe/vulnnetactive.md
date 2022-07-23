@@ -1,5 +1,5 @@
 ---
-title: "THM - # VulnNet: Active"
+title: "THM - VulnNet: Active"
 classes: wide
 header:
   teaser: /assets/images/htb/htb.png

@@ -1,5 +1,5 @@
 ---
-title: "THM - # Breaching Active Directory"
+title: "THM - Breaching Active Directory"
 classes: wide
 header:
   teaser: /assets/images/htb/htb.png

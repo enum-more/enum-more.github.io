@@ -1,5 +1,5 @@
 ---
-title: "THM - # Enumerating Active Directory"
+title: "THM - Enumerating Active Directory"
 classes: wide
 header:
   teaser: /assets/images/htb/htb.png

@@ -1,5 +1,5 @@
 ---
-title: "THM - # RazorBlack"
+title: "THM - RazorBlack"
 classes: wide
 header:
   teaser: /assets/images/htb/htb.png

@@ -6,7 +6,7 @@ header:
 ribbon: blue
 description: "Writeup for THM - # Enumerating Active Directory"
 categories:
-  - THM
+  - HTB
 ---
 
 The given box ```Enumerating Active Directory``` is a AD machine 

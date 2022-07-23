@@ -2,7 +2,7 @@
 title: "THM - RazorBlack"
 classes: wide
 header:
-  teaser: /assets/images/htb/htb.png
+  teaser: /assets/images/thm/thm.png
 ribbon: blue
 description: "Writeup for THM - # RazorBlack"
 categories:

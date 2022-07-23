@@ -16,6 +16,7 @@ layout: archive
   {% for category in site.categories %}
     {% if category[1].size == i %}
     {% if category[0] == "THM" %}
+    <script src="https://tryhackme.com/badge/550885"></script>
       <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in category.last %}

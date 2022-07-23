@@ -3,7 +3,7 @@ title: "THM - RazorBlack"
 classes: wide
 header:
   teaser: /assets/images/thm/thm.png
-ribbon: blue
+ribbon: #212529
 description: "Writeup for THM - # RazorBlack"
 categories:
   - THM

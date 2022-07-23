@@ -3,7 +3,7 @@ title: "THM - Enumerating Active Directory"
 classes: wide
 header:
   teaser: /assets/images/thm/thm.png
-ribbon: #212529
+ribbon: cyan-blue
 description: "Writeup for THM - # Enumerating Active Directory"
 categories:
   - THM

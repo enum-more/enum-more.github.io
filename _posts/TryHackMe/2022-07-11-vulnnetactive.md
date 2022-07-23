@@ -3,7 +3,7 @@ title: "THM - VulnNet: Active"
 classes: wide
 header:
   teaser: /assets/images/thm/thm.png
-ribbon: #212529
+ribbon: cyan-blue
 description: "Writeup for THM - # VulnNet: Active"
 categories:
   - THM

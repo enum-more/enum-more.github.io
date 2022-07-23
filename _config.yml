@@ -99,7 +99,6 @@ author:
   bio              : "Software Tester|Automation Tester|CTF Player"
   location         : "Coimbatore, India"
   email            :
-  tryhackme        : <script src="https://tryhackme.com/badge/550885"></script>
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

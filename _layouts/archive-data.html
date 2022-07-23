@@ -18,7 +18,7 @@ layout: archive
     {% for i in (1..categories_max) %}
     {% for category in site.categories %}
         {% if category[1].size == i %}
-        {% if category[0] == "Offsec" %}
+        {% if category[0] == "THM" %}
         <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
             <div class="entries-{{ page.entries_layout | default: 'list' }}">
             {% for post in category.last reversed %}
@@ -36,8 +36,20 @@ layout: archive
 <!--- HTB Archive--->
 <div id="htb">
     <h3>Hack The Box Writeups</h3>
-        <section>
-            <a href="https://enum-more.github.io/htb-archive/">HTB Archive</a>
+    {% for i in (1..categories_max) %}
+    {% for category in site.categories %}
+        {% if category[1].size == i %}
+        {% if category[0] == "HTB" %}
+        <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
+            <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            {% for post in category.last reversed %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             <br>
+            {% endfor %}
+            </div>
         </section>
+        {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% endfor %}
 </div>

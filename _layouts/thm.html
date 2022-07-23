@@ -16,13 +16,13 @@ layout: archive
   {% for category in site.categories %}
     {% if category[1].size == i %}
     {% if category[0] == "THM" %}
-      <img src="https://tryhackme-badges.s3.amazonaws.com/gnans2190.png" width="200" alt="TryHackMe"/>
       <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in category.last %}
             {% include archive-single.html type=page.entries_layout %}
           {% endfor %}
         </div>
+        <img src="https://tryhackme-badges.s3.amazonaws.com/gnans2190.png" width="200" alt="TryHackMe"/>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
     {% endif %}

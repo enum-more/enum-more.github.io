@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Gnanaraj Mauviel"
   avatar           : /assets/images/site_data/1642261427474.jpeg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Tester | API Automation Tester| CTF Player | CyberSecurity"
+  bio              : "Software Tester|Automation Tester|CTF Player"
   location         : "Coimbatore, India"
   email            :
   tryhackme        : <script src="https://tryhackme.com/badge/550885"></script>
